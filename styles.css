@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Gideon+Roman&family=Lilita+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Gideon+Roman&family=Katibeh&family=Lilita+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstnav {
+    border: 1px solid rgb(230, 228, 228);
+}
+
+.nav-item>a {
+    font-family: "Ubuntu", sans-serif;
+    font-size: small !important;
+    font-weight: 2rem !important;
+    font-style: normal;
+    color: black;
+}
+
+.nav-item>a:hover {
+    color: rgb(25, 194, 25);
+}
+
+.bar {
+    height: 35px;
+    border-radius: 25px;
+}
+
+.btn-success {
+    background-color: green !important;
+    margin-right: 10px !important;
+    border-radius: 20px !important;
+    padding: 5px 30px !important;
+    font-family: "Ubuntu", sans-serif;
+    font-size: small !important;
+    font-weight: 1rem;
+    font-style: normal;
+}
+
+.btn-success:hover {
+    background-color: rgb(13, 151, 13) !important;
+}
+
+.btn {
+    border-radius: 20px !important;
+    font-family: "Ubuntu", sans-serif;
+    font-size: small !important;
+    font-weight: 1rem !important;
+    font-style: normal;
+}
+
+.navbar>a {
+    font-family: "Ubuntu", sans-serif;
+    font-size: small !important;
+    font-weight: 2rem !important;
+    font-style: normal;
+    color: black;
+}
+
+.navbar>a:hover {
+    color: rgb(6, 87, 6);
+}
+
+.firstcon {
+    /* background-color: yellow !important; */
+    position: static;
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+}
+
+.firstmain>h1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* background-color: rgb(212, 7, 178); */
+    width: 500px;
+    padding: 0px;
+    margin-right: 100px;
+    margin-left: 50px;
+    padding-bottom: 2%;
+    color: rgb(18, 185, 18);
+    font-family: "Katibeh", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 7rem;
+    height: 40vh;
+}
+
+.firstmain>h2 {
+    /* background-color: aqua; */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0px;
+    margin-left: 50px;
+    padding-bottom: 2%;
+    font-family: "Katibeh", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.firstbutton {
+    padding: 10px 30px !important;
+    margin: 15px 0px 0px 100px;
+}
+
+.firstimage>img {
+    /* background-color: blueviolet; */
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.trust {
+    margin-left: 50px;
+    color: gray !important;
+    font-family: "Katibeh", serif;
+    font-weight: 200 !important;
+    font-style: normal !important;
+    font-size: 2rem !important;
+
+}
+
+.svg {
+    /* background-color: blue; */
+    margin-left: 50px;
+}
+
+.svgs {
+    /* background-color: aquamarine; */
+    margin-right: 30px;
+    width: 100px;
+}
+
+.three {
+    width: 70px;
+}
+
+.secondmain {
+    /* background-color: yellowgreen; */
+    display: flex;
+    margin-left: 50px;
+
+}
+
+.conten {
+    margin-top: 30px;
+    /* background-color: rgb(155, 8, 8); */
+    margin-left: 50px;
+}
+
+.vid {
+    margin-top: 30px;
+}
+
+.pa {
+    margin-left: 45px;
+}
+
+.sign {
+    padding: 10px 40px !important;
+}
+
+.learn {
+    padding: 10px 40px !important;
+}
+
+.learn:hover {
+    background-color: green;
+}
+
+.browse {
+    /* background-color: burlywood; */
+    margin-left: 50px;
+}
+
+.browse>h1 {
+    margin-top: 50px;
+    font-family: "Katibeh", serif;
+    font-weight: 200 !important;
+    font-style: normal !important;
+    font-size: 3.5rem !important;
+}
+
+.browse>p {
+    font-family: "Katibeh", serif;
+    font-weight: 200 !important;
+    font-style: normal !important;
+    font-size: 1.5rem !important;
+}
+
+.browse>p>a {
+    color: green;
+}
+
+.browse>p>a:hover {
+    color: rgb(13, 165, 13);
+}
+
+.sections {
+    /* background-color: yellow; */
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section {
+    background-color: rgb(250, 242, 242) !important;
+    margin: 15px;
+    padding: 20px 20px 52px !important;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 250px !important;
+    align-items: flex-start;
+}
+
+.section:hover {
+    background-color: rgb(214, 214, 214) !important;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    flex: 1;
+    max-width: 500px !important;
+    margin: 10px;
+    text-align: left;
+    padding: 50px;
+}
+
+.star {
+    color: green;
+}
+
+.thirdmain {
+    background-color: rgb(13, 85, 63);
+    color: azure;
+    display: flex;
+    margin: 50px;
+    padding-left: 35px;
+}
+
+.contthird{
+    /* padding-right: 250px; */
+}
+
+.contthird>h3 {
+    margin-top: 25px;
+    font-family: "Katibeh", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.contthird>h2 {
+    font-family: "Katibeh", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 5rem;
+    line-height: 20px;
+}
+.contthird>h1 {
+    font-family: "Katibeh", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 5rem;
+    line-height: 60px;
+    margin-bottom: 25px;
+    color: aquamarine;
+}
+
+.contthird>p{
+    line-height: 25px;
+    font-family: "Katibeh", serif;
+    font-weight: 100;
+    font-style:normal;
+    font-size: 1.9rem;
+}
+
+.but{
+    padding: 10px 40px !important;
+}
+
+
+/* Fourth Started */
+
+.fourthmain{
+    background-image: url(https://t3.ftcdn.net/jpg/01/87/41/24/360_F_187412454_rNGgFa7tMvY1NEiQeGyHvVTOm6jwNFQ4.jpg);
+    background-size: cover;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: azure;
+}
+
+/* Image */
+
+.fortimg{
+    position: relative;
+    margin-left: 50px;
+    display: flex;
+}
+
+/* Content */
+
+.forthcont{
+    margin-left: 30px;
+    /* position: absolute; */
+    /* background-color: violet; */
+    padding-left: 10px;
+}
+
+.forthcont>h3 {
+    margin-top: 25px;
+    font-family: "Katibeh", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 70px;
+}
+
+.forthcont>h1 {
+    font-family: "Katibeh", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 8rem;
+    line-height: 70px;
+    margin-bottom: 55px;
+    color: rgb(255, 255, 255);
+}
+
+.forthcont>p{
+    line-height: 25px;
+    font-family: "Katibeh", serif;
+    font-weight: 100;
+    font-style:normal;
+    font-size: 1.9rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 35px;
+}
+
+/* Buttons */
+
+.bt{
+    background-color: green !important;
+    margin-right: 15px !important;
+    border-radius: 10px !important;
+    padding: 6px 90px !important;
+    font-family: "Ubuntu", sans-serif;
+    font-size: small !important;
+    font-weight: 1rem;
+    font-style: normal;
+    margin-bottom: 25px;
+    align-items: flex-start !important;
+}
+
+.bt:hover{
+    background-color: azure !important;
+    color: green;
+}
+
+.fa-arrow-right{
+    color: azure;
+}
+
+.btt{
+    background-color: green !important;
+    margin-right: 15px !important;
+ 
+    border-radius: 10px !important;
+    padding: 6px 90px !important;
+    font-family: "Ubuntu", sans-serif;
+    font-size: small !important;
+    font-weight: 1rem;
+    font-style: normal;
+    margin-bottom: 25px;
+}
+
+.btt:hover{
+    background-color: azure !important;
+    color: green;
+}
+
+.bttt{
+    background-color: green !important;
+    margin-right: 15px !important;
+    border-radius: 10px !important;
+    padding: 6px 50px !important;
+    font-family: "Ubuntu", sans-serif;
+    font-size: small !important;
+    font-weight: 1rem;
+    font-style: normal;
+    margin-bottom: 25px;
+    
+}
+
+.bttt:hover{
+    background-color: azure !important;
+    color: green;
+}
+
+
+/* Fifth Started */
+
+.fifthmain{
+    margin-top: 100px;
+    display: flex;
+    /* background-color: tomato; */
+    padding-left: 50px;
+    padding-bottom: 50px;
+    
+}
+
+
+/* Left Side */
+
+.leftcontent{
+    padding-left: 30px;
+    background-color: rgb(250, 247, 247);
+    margin-right: 30px;
+    border-radius: 5px;
+    padding-top: 70px;
+    width: 800px;
+}
+
+.leftcontent>h1{
+    font-family: "Katibeh", serif;
+    font-size: 6.5rem;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 0.7;
+}
+
+.leftcontent>h3{
+    padding-top: 30px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 0.7;
+}
+
+.leftcontent>p{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+    font-weight: 70rem;
+    font-style: normal;
+}
+
+.image{
+    position: absolute;
+    right: 320px;
+    padding-top: 50px;
+}
+
+/* Right Side */
+.rightcontent{
+    padding: 325px 1px 40px 50px;
+    color: rgb(219, 230, 230);
+    background-color: rgb(19, 160, 19);
+    width: 400px;
+    border-radius: 5px;
+    
+} 
+
+.rightcontent>h3{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rightcontent>p{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Sixth Started */
+
+.sixthmain{
+    /* background-color: teal; */
+    margin: 5px 50px 50px 50px;
+    border-radius: 5px;
+    display: flex;
+
+
+}
+
+.sidecontent{
+    padding-left: 30px;
+    background-color: rgb(35, 96, 187);
+    width: 630px;
+}
+    
+
+.sidecontent>h4 {
+    margin-top: 25px;
+    font-family: "Katibeh", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.sidecontent>h1 {
+    font-family: "Katibeh", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 8rem;
+    line-height: 70px;
+    margin-bottom: 55px;
+    color: rgb(255, 255, 255);
+}
+
+.sidecontent>p{
+    line-height: 25px;
+    font-family: "Katibeh", serif;
+    font-weight: 100;
+    font-style:normal;
+    font-size: 1.7rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 110px;
+}
+
+hr{
+    color: azure;
+    height: 15px;
+    width:550px;
+}
+
+.botpara{
+    display: flex;
+    
+}
+
+.botpara>p{
+    line-height: 25px;
+    font-family: "Katibeh", serif;
+    font-weight: 100;
+    font-style:normal;
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 35px;
+    padding-right: 25px;
+}
+
+.db{
+    padding: 10px 40px;
+    color: blue;
+}
+
+.db:hover{
+    background-color: rgb(199, 212, 228);
+    color: rgb(0, 0, 0);
+}
+
+/* Carousel Section */
+
+.carousels{
+    margin-left: 50px;
+    color: black;
+}
+
+.carousel{
+    margin-left: 5px;
+    color: black;
+    display: flex;
+}
+
+.h>h1{
+    font-family: "Katibeh", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 6.5rem;
+    line-height: 70px;
+    margin-bottom: 70px;
+}
+
+.imgone{
+    background-color: rgb(16, 94, 90);
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 600px;
+    border-radius: 5px;
+    margin-right: 35px;
+}
+
+.imgone>img{
+    margin-bottom: 15px;
+}
+
+.imgone>h3{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+    color: azure;
+}
+
+.imgone>p{
+    color: azure;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+}
+
+.pr{
+    display: flex;
+flex-direction: column;
+padding-right: 40px;
+}
+
+.pra{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.parah{
+    display: flex;
+   color: azure;
+}
+
+.imgtwo{
+    background-color: rgb(185, 86, 19);
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.imgtwo>img{
+    margin-bottom: 15px;
+}
+
+.imgtwo>h3{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+    color: azure;
+}
+
+.imgtwo>p{
+    color: azure;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+}
+
+.pr{
+    display: flex;
+flex-direction: column;
+padding-right: 40px;
+}
+
+.pra{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.parah{
+    display: flex;
+   color: azure;
+}

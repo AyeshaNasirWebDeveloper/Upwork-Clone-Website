@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: #198754;
+}
+
+/* Set body font and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Nav Bar Styles */
+
+.navbar {
+    background-color: #f8f9fa; /* Light gray background */
+    border-bottom: 1px solid #dee2e6; /* Gray border bottom */
+}
+
+.nav-link {
+    color: #212529; /* Dark text color */
+}
+
+.nav-link:hover {
+    color: #0d6efd; /* Blue text color on hover */
+}
+
+/* Main Content Styles */
+
+.firstmain {
+    padding: 50px;
+    text-align: center;
+}
+
+.firstmain h1 {
+    font-size: 2.5rem;
+    color: #212529; /* Dark text color */
+}
+
+.firstmain h2 {
+    font-size: 1.5rem;
+    color: #6c757d; /* Gray text color */
+}
+
+.btn-success {
+    background-color: #198754; /* Green button background color */
+    border-color: #198754; /* Green button border color */
+}
+
+.btn-success:hover {
+    background-color: #146c43; /* Darker green button background color on hover */
+    border-color: #146c43; /* Darker green button border color on hover */
+}
+
+/* Add styles for other sections as needed */
+
+/* Footer Styles */
+
+.card-group {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.card {
+    border: none; /* Remove card borders */
+}
+
+.card-title {
+    font-size: 1.2rem;
+    color: #212529; /* Dark text color */
+}
+
+.card-text a {
+    display: block;
+    color: #212529; /* Dark text color */
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.card-text a:hover {
+    color: #0d6efd; /* Blue text color on hover */
+}
+
+/* Links Section Styles */
+
+.links {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links h6 {
+    font-size: 1rem;
+    color: #212529; /* Dark text color */
+    margin-right: 10px;
+}
+
+.links a {
+    color: #212529; /* Dark text color */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.links a:hover {
+    color: #0d6efd; /* Blue text color on hover */
+}
+
+.lastsec {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lastpara {
+    font-size: 0.9rem;
+    color: #6c757d; /* Gray text color */
+}
+
+.lastlink a {
+    color: #6c757d; /* Gray text color */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.lastlink a:hover {
+    color: #0d6efd; /* Blue text color on hover */
+}
+
+div{
+    background-color: #bdd3f5;
+}
+
